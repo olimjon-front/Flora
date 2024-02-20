@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="./image/Logo.png" alt=""></a>
+          <div class="navbar-links d-lg-flex d-none">
+            <ul class="d-flex list-unstyled gap-4 mt-3">
+                <li><a class="text-decoration-none text-dark" href="">Home</a></li>
+                <li><a class="text-decoration-none text-dark" href="">About</a></li>
+                <li><a class="text-decoration-none text-dark" href="">Service</a></li>
+                <li><a class="text-decoration-none text-dark" href="">New Property</a></li>
+                <li><a class="text-decoration-none text-dark" href="">Contact</a></li>
+            </ul>
+          </div>
+          <div class="navbar-button text-white d-lg-flex d-none">Login</div>
+          <button class="navbar-toggler d-lg-none d-flex" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!-- navbar end-->
+    <!-- header -->
+    <header class="header d-flex align-items-center position-relative">
+      <img class="position-absolute header-img w-100 h-100 z-0" src="./image/Mask group.png" alt="">
+        <div class="container z-1">
+            <h1 class="header-title">Discover a place you will love to live</h1>
+            <p class="header-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet tempus felis vitae sit est quisque.</p>
+            <div class="header-reklama d-flex flex-wrap ">
+              <div class="header-card d-flex align-items-center gap-3">
+                <div><img src="./location.png" alt=""></div>
+                <div>
+                  <h4>Location</h4>
+                  <p>Ahmedabad, India</p>
+                </div>
+              </div>
+              <div class="header-card d-flex align-items-center gap-3">
+                <div><img src="./location.png" alt=""></div>
+                <div>
+                  <h4>Location</h4>
+                  <p>Ahmedabad, India</p>
+                </div>
+              </div>
+              <div class="header-card d-flex align-items-center gap-3">
+                <div><img src="./location.png" alt=""></div>
+                <div>
+                  <h4>Location</h4>
+                  <p>Ahmedabad, India</p>
+                </div>
+              </div>
+              <img class="object-fit-contain search-icon" src="./search-normal.png" alt="">
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+    <!-- service -->
+    <section class="service mt-5">
+      <div class="container">
+        <h2 class="text-center">How it Works</h2>
+        <p class="text-center service-text">Using it can make you sound like you have been studying english for a long time. Here’s the challenge</p>
+        <div class="row justify-content-around">
+          <div class="col-md-4 col-sm-6 col-10 service-card">
+            <img src="./Home. 1.png" alt="">
+            <h4>Search Apartment</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet tempus felis vitae.</p>
+          </div>
+          <div class="col-md-4 col-sm-6 col-10 service-card">
+            <img src="./Home. 1.png" alt="">
+            <h4>Select Apartment</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet tempus felis vitae.</p>
+          </div>
+          <div class="col-md-4 col-sm-6 col-10 service-card">
+            <img src="./Home. 1.png" alt="">
+            <h4>Confirm Apartment</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet tempus felis vitae.</p>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!-- service end -->
+    <!-- dreamhome -->
+    <h1 style="text-align: center;">We will help you to find  Dream Home</h1>
+    <p class="long-card">It is a long established fact that a reader will be distracted by the readable content of a page <br> when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+    <section class="dreamhome mt-5">
+      <div class="container">
+        <div class="row dreamhome1 d-flex justify-content-end align-items-center">
+          <div class="col-md-1">
+            <div class="dreamhome-card" style="padding: 10px 10px;">
+              <p>$2000/month</p>
+              <p>Apartment 2500 sqft</p>
+              <p class="mt-3 align-items-center"><img src="./location.png" alt="">1901 Thornridge Cir. Shiloh, <br>Hawaii 81063</p>
+            </div>
+          </div>
+          <div class="col-md-11">
+            <img class="w-100 h-100" src="./image/Home.1.png" alt="">
+          </div>
+        </div>
+        <div class="row dreamhome1 mt-5 d-flex justify-content-end align-items-center">
+          <div class="col-md-11">
+            <img class="w-100 h-100" src="./image/Home.1.png" alt="">
+          </div>
+          <div class="col-md-1">
+            <div class="dreamhome-card left-card" style="padding: 10px 10px;">
+              <p>$5000/month</p>
+              <p>Apartment 2500 sqft</p>
+              <p><img src="./location.png" alt="">1901 Thornridge Cir. Shiloh, <br>Hawaii 81063</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- dreamhome end-->
+    <!-- houses -->
+    <h1 class="mt-5" style="text-align: center;">Our most trending properties</h1>
+    <p class="reader" style="text-align: center;">It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout. The point of using.</p>
+    <section class="houses">
+      <div class="container mt-5">
+        <div class="row justify-content-around">
+          <div class="col-md-4 col-sm-6 col-10 mt-5">
+            <img class="w-100" src="./image/homes1.png" alt="">
+            <p class="text-primary" style="font-size: 24px;">$250000</p>
+            <p style="font-size: 24px;">Luxury Apartment in California</p>
+            <p style="font-size: 16px;"><img src="./location.png" alt="">1901 Thornridge Cir. Shiloh, Hawaii 81063</p>
+          </div>
+          <div class="col-md-4 col-sm-6 col-10 mt-5">
+            <img class="w-100" src="./image/homes1.png" alt="">
+            <p class="text-primary" style="font-size: 24px;">$175000</p>
+            <p style="font-size: 24px;">Luxury Apartment in California</p>
+            <p style="font-size: 16px;"><img src="./location.png" alt="">1901 Thornridge Cir. Shiloh, Hawaii 81063</p>
+          </div>
+          <div class="col-md-4 col-sm-6 col-10 mt-5">
+            <img class="w-100" src="./image/homes1.png" alt="">
+            <p class="text-primary" style="font-size: 24px;">$300000</p>
+            <p style="font-size: 24px;">Luxury Apartment in California</p>
+            <p style="font-size: 16px;"><img src="./location.png" alt="">1901 Thornridge Cir. Shiloh, Hawaii 81063</p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-10 mt-5">
+            <img class="w-100" src="./image/homes1.png" alt="">
+            <p class="text-primary" style="font-size: 24px;">$140000</p>
+            <p style="font-size: 24px;">Luxury Apartment in California</p>
+            <p style="font-size: 16px;"><img src="./location.png" alt="">1901 Thornridge Cir. Shiloh, Hawaii 81063</p>
+          </div>
+          <div class="col-md-4 col-sm-6 col-10 mt-5">
+            <img class="w-100" src="./image/homes1.png" alt="">
+            <p class="text-primary" style="font-size: 24px;">$500000</p>
+            <p style="font-size: 24px;">Luxury Apartment in California</p>
+            <p style="font-size: 16px;"><img src="./location.png" alt="">1901 Thornridge Cir. Shiloh, Hawaii 81063</p>
+          </div>
+          <div class="col-md-4 col-sm-6 col-10 mt-5">
+            <img class="w-100" src="./image/homes1.png" alt="">
+            <p class="text-primary" style="font-size: 24px;">$275000</p>
+            <p style="font-size: 24px;">Luxury Apartment in California</p>
+            <p style="font-size: 16px;"><img src="./location.png" alt="">1901 Thornridge Cir. Shiloh, Hawaii 81063</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- houses end -->
+    <!-- customers -->
+    <section>
+      <h1 style="text-align: center;margin-top: 40px;">What our customers say’s</h1>
+      <p style="text-align: center;" class="fact">It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="./ayol.png" alt="">
+          </div>
+          <div class="col-8">
+            <div class="svg">
+              <img class="svg" src="./star.svg" alt="">
+              <img class="svg" src="./star.svg" alt="">
+              <img class="svg" src="./star.svg" alt="">
+              <img class="svg" src="./star.svg" alt="">
+              <img class="svg" src="./star.svg" alt="">
+              <p style="max-width: 900px;" class="kety-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet tempus felis vitae sit est quisque. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+              <h3 class="kety">Kety Willions</h3>
+              <p>California, United State</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- customers end -->
+    <!-- footer -->
+    <div class="container" style="margin-top: 100px;">
+      <div class="row gap-4">
+        <div class="felis col-lg-4">
+          <img src="./image/Logo.png" alt="">
+          <p class="mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet tempus
+            felis vitae sit est quisque.</p>
+        </div>
+        <div class="col-md-2">
+          <h4>Service</h4>
+          <p> Payment & Tax</p>
+          <p> Features</p>
+          <p> View Booking</p>
+          <p> Support</p>
+        </div>
+        <div class="col-md-2">
+          <h4>About</h4>
+          <p> About us</p>
+          <p> News</p>
+          <p> Pricing</p>
+          <p> New Property</p>
+        </div>
+        <div class="lacation col-lg-4 d-lg-block">
+          <h3>Our Location</h3>
+          <p class="mt-4">2972 Westheimer Rd. Santa Ana, Illinois 85486 </p>
+          <img src="./twitter.png" alt="">
+          <img src="./linkedin.png" alt="">
+        </div>
+        <div>
+          <div class="line"></div>
+        </div>
+
+      </div>
+    </div>
+    <!-- footer end -->
+</body>
+<script src="./bootstrap.bundle.min.js"></script>
+</html>
